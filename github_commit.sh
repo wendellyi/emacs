@@ -9,5 +9,5 @@ fi
 
 git add .
 git commit
-git remote add $COMMIT_PTR https:/github.com/wendellyi/$PRO_NAME.git
+git remote add $COMMIT_PTR https://github.com/wendellyi/$PRO_NAME.git
 git push $COMMIT_PTR master
