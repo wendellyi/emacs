@@ -1,8 +1,0 @@
-#! /bin/bash
-
-COMMIT_PTR=$1
-PRO_NAME=$2
-
-git add .
-git commit
-git remote add $COMMIT_PTR 
