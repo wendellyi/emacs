@@ -6,7 +6,8 @@
   (setq tab-width 4)
   (setq c-basic-offset 4)
   (setq indent-tabs-mode nil)
-  (c-toggle-hungry-state 1))
+  (c-toggle-hungry-state 1)
+  (set-default 'truncate-lines t))
 
 ;; 备选的语言风格
 ;; (c-set-style "ellemtel")     ;; 类似于MSVS
