@@ -12,7 +12,6 @@
 ;; 备选的语言风格
 ;; (c-set-style "ellemtel")     ;; 类似于MSVS
 ;; (c-set-style "stroustrup")   ;; C++创始人风格
-;; (c-set-style "gnu“)          ;; GNU风格
 ;; (c-set-style "k&r")          ;; C语言创始人风格
   
 (add-hook 'c++-mode-hook 'my-c++-mode-hook)
