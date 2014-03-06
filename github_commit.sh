@@ -1,6 +1,6 @@
 #! /bin/bash
 
-COMMIT_PTR=$1
+COMMIT_PTR=$$
 
 env GIT_SSL_NO_VERIFY=true git add .
 env GIT_SSL_NO_VERIFY=true git commit
