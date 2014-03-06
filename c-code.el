@@ -8,7 +8,8 @@
   (setq tab-width 4)
   (setq indent-tabs-mode nil)
   (c-toggle-hungry-state 1)
-  (set-default 'truncate-lines t))
+;;  (set-default 'truncate-lines t)
+  (define-key c-mode-base-map [(f7)] 'compile))
   
 ;; 建议不要使用c-toggle-auto-hungry-state，
 ;; 因为这个设置会把c-toggle-hungry-state和c-toggle-auto-newline选项都打开，
@@ -21,3 +22,7 @@
 ;; (c-set-style "gnu“)              ;; GNU风格
 ;; (c-set-style "k&r")              ;; C语言创始人风格
 ;; (c-set-style "linux")            ;; Linux内核编码风格
+
+
+;; (autopair-global-mode 1)
+;; (setq autopair-autowrap t)

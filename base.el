@@ -15,7 +15,7 @@
 ;; 显示行列号
 (setq column-number-mode t)
 (global-linum-mode 1)
-(setq linum-format "%d|")
+(setq linum-format "%04d|")
 
 ;; 显示时间
 (display-time-mode 1) 
@@ -54,4 +54,3 @@
 ;; 浏览时平滑滚动，而不是跳动
 (setq scroll-margin 4
       scroll-conservatively 10000)
-
