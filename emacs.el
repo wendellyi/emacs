@@ -11,7 +11,7 @@
 (load "c-code.el")                  ;; C语言配置
 (load "cpp-code.el")                ;; C++语言配置
 (load "ecb-setting.el")             ;; ECB配置
-;;(load "yasnippet-setting.el")       ;; 加载yasnippet配置
+(load "yasnippet-setting.el")       ;; 加载yasnippet配置
 (load "autocomplete-setting.el")    ;; 加载autocomplete配置
 (load "lua-setting.el")             ;; lua-mode 配置
 (custom-set-variables
@@ -30,3 +30,5 @@
   ;; Your init file should contain only one such instance.
   ;; If there is more than one, they won't work right.
  )
+
+(require 'moccur-edit)

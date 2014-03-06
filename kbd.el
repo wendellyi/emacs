@@ -23,3 +23,5 @@
 ;; next-error
 (global-set-key [(f4)] 'next-error)
 
+;; 全局查找快捷键
+(global-set-key [(f3)] 'moccur-grep)
