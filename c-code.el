@@ -9,7 +9,8 @@
   (setq indent-tabs-mode nil)
   (c-toggle-hungry-state 1)
 ;;  (set-default 'truncate-lines t)
-  (define-key c-mode-base-map [(f7)] 'compile))
+  (define-key c-mode-base-map [(f7)] 'compile)
+  (lambda() (require 'xcscope)))
   
 ;; 建议不要使用c-toggle-auto-hungry-state，
 ;; 因为这个设置会把c-toggle-hungry-state和c-toggle-auto-newline选项都打开，

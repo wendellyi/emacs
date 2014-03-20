@@ -14,6 +14,8 @@
 ;;(load "yasnippet-setting.el")       ;; 加载yasnippet配置
 (load "autocomplete-setting.el")    ;; 加载autocomplete配置
 (load "lua-setting.el")             ;; lua-mode 配置
+(require 'xcscope)                  ;; 加载cscope
+(setq cscope-do-not-update-database t)
 (custom-set-variables
   ;; custom-set-variables was added by Custom.
   ;; If you edit it by hand, you could mess it up, so be careful.
